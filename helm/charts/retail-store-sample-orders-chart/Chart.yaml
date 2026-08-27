@@ -1,0 +1,8 @@
+apiVersion: v2
+name: retail-store-sample-orders-chart
+description: Orders Microservice - Modified Helm chart for AWS EKS course (based on aws-containers/retail-store-sample-app) 
+type: application
+version: 2.0.0
+appVersion: 1.3.0
+sources:
+  - https://github.com/aws-containers/retail-store-sample-app
