@@ -57,7 +57,7 @@ Note your **Account ID** from the output â€” you'll need it below.
 
 ---
 
-## Part 1 â€” One-Time Setup
+## Part 1 One-Time Setup
 
 These steps must be completed once, before any deployment command below. Several files contain deployment-specific example values for the AWS account, Terraform state bucket, GitHub repository, AWS resource endpoints, and optional domain configuration. Replace them with values from the AWS account and repository being used for the deployment.
 
@@ -207,7 +207,7 @@ If you do not own a domain, remove the `external-dns.alpha.kubernetes.io/hostnam
 
 ---
 
-## Part 2 â€” Deployment
+## Part 2 Deployment
 
 ### 2.1 Provision the VPC
 ```bash
