@@ -1,5 +1,7 @@
 # Retail Store on Amazon EKS
 
+![AWS EKS Retail Store Architecture](docs/images/architecture.png)
+
 An end-to-end deployment of a polyglot microservices retail application on Amazon EKS, provisioned entirely with Terraform and deployed with Helm and ArgoCD. Covers infrastructure-as-code, autoscaling, secrets management, observability, and GitOps-based CI/CD.
 
 ## Overview
